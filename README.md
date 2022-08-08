@@ -5,8 +5,21 @@ Applying machine learning to solve a real-world challenge: credit card risk is t
 ### Results: 
 #### Naive Random Oversampling
 
+![image](https://user-images.githubusercontent.com/103073631/183362801-5d88c43d-6ec7-44be-9696-2d7e0e14b620.png)
+
+- Balanced Accuracy: 0.6249984891886339
+- Precision: The precision is 0.01 for High-risk loans and 1.00 for Low-risk loans.
+- Recall: High&Low risk = 0.60 ; 0.65
+- F1 scores for High and Low risk: 0.02 ; 0.79
 
 #### SMOTE Oversampling
+
+![image](https://user-images.githubusercontent.com/103073631/183365147-963fa779-7e98-48a2-b820-a76eb3e8f1f8.png)
+
+- Balanced Accuracy: 0.6512584051472337
+- Precision: The precision is 0.01 for High-risk loans and 1.00 for Low-risk loans.
+- Recall: High&Low risk = 0.64 ; 0.66
+- F1 scores for High and Low risk: 0.02 ; 0.79
 
 #### Undersampling
 
